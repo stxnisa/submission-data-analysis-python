@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import seaborn as sns
 
 df_hour = pd.read_csv('/content/hour.csv')
 df_daily = pd.read_csv('/content/day.csv')
